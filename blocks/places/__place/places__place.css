@@ -1,0 +1,12 @@
+.places__place {
+  max-width: 984px;
+  margin: 0 0 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: minmax(min-content, max-content) 1fr;
+  gap: 48px 40px;
+}
+
+.places__place:last-of-type {
+  margin: 0;
+}
