@@ -1,7 +1,7 @@
 .page {
   max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Inter', 'Arial', sans-serif;
   background-color: #2a2c2f;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,10 @@
 }
 
 
-
 div, h1, h2, h3, h4, p, a, ul, li, img {
   border: 1px solid #d00;
+}
+
+main {
+  border: 1px dashed #0d0;
 }

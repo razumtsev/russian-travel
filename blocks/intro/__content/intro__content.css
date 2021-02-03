@@ -1,0 +1,21 @@
+.intro__content {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .intro__content {
+    align-self: auto;
+    max-width: calc(100% - 48px)
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .intro__content {
+    align-self: auto;
+    max-width: calc(100% - 32px)
+  }
+}

@@ -2,7 +2,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   /* identical to box height, or 114% */
   color: #FFFFFF;
   text-decoration: none;
@@ -11,4 +11,11 @@
 
 .footer__copyright:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__copyright{
+    font-size: 14px;
+    line-height: 1;
+  }
 }
