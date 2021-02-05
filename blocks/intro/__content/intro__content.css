@@ -9,13 +9,13 @@
 @media screen and (max-width: 768px) {
   .intro__content {
     align-self: auto;
-    max-width: calc(100% - 48px)
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 450px) {
   .intro__content {
     align-self: auto;
-    max-width: calc(100% - 32px)
+    max-width: calc(100% - 32px);
   }
 }
