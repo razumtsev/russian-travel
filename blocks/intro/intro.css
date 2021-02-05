@@ -1,5 +1,5 @@
 .intro {
-  margin-top: 92px;
+  padding-top: 92px;
   min-width: 984px;  
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   }
 }
 
-@media screen and (max-width: 932px) {
+@media screen and (max-width: 960px) {
   .intro {
     min-width: 100%;
   }
@@ -20,12 +20,12 @@
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-top: 88px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .intro {
-    margin-top: 64px;
+    padding-top: 64px;
   }
 }
