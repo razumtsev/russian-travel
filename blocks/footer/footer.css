@@ -1,6 +1,5 @@
 .footer {
   min-width: calc(100% - 96px);
-  height: 18px;
   padding-top: 92px;
   padding-bottom: 24px;
   display: flex;
@@ -19,6 +18,5 @@
     padding-left: 18px;
     flex-direction: column;
     align-self: flex-start;
-    height: 310px;
   }
 }

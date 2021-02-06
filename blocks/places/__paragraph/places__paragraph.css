@@ -1,7 +1,7 @@
 .places__paragraph {
   font-weight: normal;
   font-size: 18px;
-  line-height: 1.6;
+  line-height: 1.63;
   color: #FFFFFF;
   max-width: 484px;
   margin: 0 0 26px;
@@ -21,13 +21,11 @@
 @media screen and (max-width: 768px) {
   .places__paragraph {
     max-width: 352px;
-    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .places__paragraph {
     max-width: 100%;
-    font-size: 16px;
   }
 }

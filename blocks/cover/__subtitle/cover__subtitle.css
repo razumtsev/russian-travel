@@ -2,7 +2,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 1.2;
-  /* or 122% */
   text-align: center;
   color: #FFFFFF;
   max-width: 360px;
@@ -12,15 +11,12 @@
 @media screen and (max-width: 580px) {
   .cover__subtitle {
     font-size: 14px;
-    line-height: 1.2;
     max-width: 290px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.2;
     max-width: 288px;
   }
 }

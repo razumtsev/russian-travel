@@ -3,7 +3,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.1;
-  /* identical to box height, or 114% */
   color: #FFFFFF;
   text-decoration: none;
   transition: opacity 0.3s;
@@ -15,7 +14,6 @@
 
 @media screen and (max-width: 450px) {
   .footer__copyright{
-    font-size: 14px;
     line-height: 1;
   }
 }

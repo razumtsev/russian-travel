@@ -9,4 +9,4 @@
 * Grid Layout
 * Figma
 
-[https://razumtsev.github.io/russian-travel/]
+[Проектная работа №3](https://razumtsev.github.io/russian-travel/)
