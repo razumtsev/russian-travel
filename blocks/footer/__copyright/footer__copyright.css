@@ -5,6 +5,7 @@
   line-height: 1.1;
   color: #FFFFFF;
   text-decoration: none;
+  align-self: flex-end;
   transition: opacity 0.3s;
 }
 
@@ -16,5 +17,6 @@
   .footer__copyright{
     line-height: 1;
     margin-top: 16px;
+    align-self: flex-start;
   }
 }

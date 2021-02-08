@@ -24,11 +24,23 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 750px) {
   .places__place {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .places__place {
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(4, minmax(min-content, max-content));
     gap: 32px;
     margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .places__place {
+
   }
 }

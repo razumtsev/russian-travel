@@ -9,6 +9,7 @@
 
 /* Page */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__container/page__container.css');
 
 /* Header */
 @import url('../blocks/header/header.css');
@@ -50,14 +51,13 @@
 
 /* Cover */
 @import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
 @import url('../blocks/cover/__title/cover__title.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
-@import url('../blocks/cover/__overlay/cover__overlay.css');
 
 /* Footer */
 
 @import url('../blocks/footer/footer.css');
-@import url('../blocks/footer/__navigation/footer__navigation.css');
 @import url('../blocks/footer/__list/footer__list.css');
 @import url('../blocks/footer/__navigation-link/footer__navigaiton-link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
