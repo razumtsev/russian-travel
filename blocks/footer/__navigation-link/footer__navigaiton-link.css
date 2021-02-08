@@ -1,4 +1,5 @@
 .footer__navigation-link {
+  display: flex;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -17,6 +18,6 @@
   .footer__navigation-link {
     font-size: 24px;
     line-height: 1;
-    margin: 0 0 32px;
+    margin: 0 0 32px 0;
   }
 }

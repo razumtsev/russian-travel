@@ -1,9 +1,6 @@
 .places {
   max-width: 984px;
-  list-style: none;
   margin-top: 92px;
-  margin-bottom: 0;
-  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {

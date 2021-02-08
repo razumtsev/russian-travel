@@ -8,6 +8,7 @@
 
 @media screen and (max-width: 768px) {
   .footer {
+    min-width: calc(100% - 48px);
     padding-top: 88px;
   }
 }
@@ -15,7 +16,7 @@
 @media screen and (max-width: 450px) {
   .footer {
     padding-top: 64px;
-    padding-left: 18px;
+    padding-left: 16px;
     flex-direction: column;
     align-self: flex-start;
   }

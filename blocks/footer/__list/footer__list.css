@@ -1,9 +1,13 @@
-.footer__navigation {
+.footer__list {
   display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 450px) {
-  .footer__navigation {
+  .footer__list {
     flex-direction: column;
     align-items: flex-start;
   }
