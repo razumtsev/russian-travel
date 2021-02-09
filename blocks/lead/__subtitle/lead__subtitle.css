@@ -10,10 +10,17 @@
 
 @media screen and (max-width: 720px) {
   .lead__subtitle {
-    font-size: 22px;
+    font-size: 23px;
     line-height: 1.1;
     margin: 22px 0 0;
     max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .lead__subtitle {
+    font-size: 17px;
+    max-width: 300px;
   }
 }
 

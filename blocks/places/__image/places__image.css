@@ -1,3 +1,14 @@
 .places__image {
   max-width: 100%;
 }
+
+@media screen and (max-width: 450px) {
+  .places__image {
+    position: relative;
+    top: 0;
+    right: -16px;
+    bottom: 0;
+    left: -16px;
+    min-width: calc(100% + 32px);
+  }
+}

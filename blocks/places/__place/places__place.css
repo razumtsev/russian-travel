@@ -2,7 +2,7 @@
   max-width: 984px;
   margin-bottom: 80px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 0.96fr 1.04fr;
   grid-template-rows: minmax(min-content, max-content) 1fr;
   gap: 48px 40px;
 }
@@ -13,20 +13,21 @@
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    gap: 40px 32px;
+    gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__place {
-    gap: 40px 28px;
+    gap: 48px 28px;
     margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .places__place {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 40% 55%;
+    gap: 32px 16px;
   }
 }
 
@@ -41,6 +42,6 @@
 
 @media screen and (max-width: 450px) {
   .places__place {
-
+    max-width: calc(100% - 32px);
   }
 }
