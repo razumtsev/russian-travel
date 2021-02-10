@@ -36,48 +36,18 @@
 
 @media screen and (max-width: 768px) {
   .cover__link {
-    min-width: 100%;
     min-height: 480px;
   }
 }
 
 @media screen and (max-width: 450px) {
   .cover__link {
-    min-width: 100%;
     min-height: 281px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .cover__link {
-    min-width: 100%;
     min-height: 200px;
   }
 }
-
-
-
-
-
-
-
-
-
-/*.cover__link {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(42, 44, 47, .3);
-  transition: background-color .3s;
-}
-
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .8);
-}*/
