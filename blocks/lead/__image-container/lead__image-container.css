@@ -1,0 +1,27 @@
+.lead__image-container {
+  width: 100%;
+  max-width: 984px;
+  margin: 64px auto 0;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__image-container {
+    max-width: 928px;
+    margin: 56px auto 0;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__image-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .lead__image-container {
+    margin: 40px auto 0;
+  }
+}

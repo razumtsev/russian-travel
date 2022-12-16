@@ -1,0 +1,9 @@
+.header__lang-link_is-active {
+  border-bottom: 1px solid #fff;
+  cursor: default;
+}
+
+.header__lang-link_is-active:hover {
+  opacity: 1;
+  transition: none;
+}

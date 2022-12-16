@@ -1,3 +1,19 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 28px;
+  min-width: calc(100% - (48px * 2));
+}
 
+@media screen and (max-width: 1000px) {
+  .header {
+    min-width: calc(100% - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    min-width: calc(100% - (16px * 2));
+  }
 }
