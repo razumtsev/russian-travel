@@ -1,0 +1,17 @@
+.intro {
+  width: 100%;
+  max-width: 984px;
+  margin-top: 92px;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    max-width: calc(100% - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .intro {
+    max-width: calc(100% - (16px * 2));
+  }
+}
