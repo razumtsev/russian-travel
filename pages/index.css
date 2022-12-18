@@ -43,5 +43,11 @@
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list-digits/intro__list-digits.css);
 
+/* -= Photogrid =- */
+@import url(../blocks/photogrid/photogrid.css);
+@import url(../blocks/photogrid/__content/photogrid__content.css);
+@import url(../blocks/photogrid/__item/photogrid__item.css);
+@import url(../blocks/photogrid/__image/photogrid__image.css);
+
 /* -= Footer =- */
 @import url(../blocks/footer/footer.css);
