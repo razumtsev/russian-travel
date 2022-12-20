@@ -1,0 +1,5 @@
+.cover__content {
+  background-image: url(../../../images/sunset-trains.jpg);
+  background-size: cover;
+  background-position: center;
+}
