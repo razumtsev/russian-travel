@@ -1,0 +1,11 @@
+.places__story {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1000px) {
+  .places__story {
+    gap: 25px;
+  }
+}
