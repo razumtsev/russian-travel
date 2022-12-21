@@ -1,5 +1,4 @@
 .content {
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,7 +16,4 @@
   .content {
     row-gap: 64px;
   }
-=======
-
->>>>>>> 2c15c1e30eaa7a182dc063e079eaa12e2dc710c8
 }
