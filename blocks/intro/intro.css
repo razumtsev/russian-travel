@@ -3,7 +3,13 @@
   max-width: 984px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
+  .intro {
+    max-width: calc(100% - (48px * 2));
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .intro {
     max-width: calc(100% - (24px * 2));
   }

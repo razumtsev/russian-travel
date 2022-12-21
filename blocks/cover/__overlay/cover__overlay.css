@@ -29,7 +29,13 @@
 
 @media screen and (max-width: 750px) {
   .cover__overlay {
-    min-height: 200px;
+    min-height: 360px;
     gap: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cover__overlay {
+    min-height: 200px;
   }
 }

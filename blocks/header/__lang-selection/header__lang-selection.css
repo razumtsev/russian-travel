@@ -3,3 +3,9 @@
   gap: 19px;
   margin-top: 14px;
 }
+
+@media screen and (max-width: 750px) {
+  .header__lang-selection {
+    margin-top: 7px;
+  }
+}

@@ -5,3 +5,15 @@
   width: 100%;
   row-gap: 92px;
 }
+
+@media screen and (max-width: 1000px) {
+  .content {
+    row-gap: 88px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .content {
+    row-gap: 64px;
+  }
+}

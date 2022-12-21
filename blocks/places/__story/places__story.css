@@ -9,3 +9,9 @@
     gap: 25px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .places__story {
+    margin: 0 16px 0;
+  }
+}
