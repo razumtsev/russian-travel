@@ -6,12 +6,12 @@
 
 @media screen and (max-width: 1000px) {
   .places__content {
-    gap: 73px;
+    gap: 74px;
   }
 }
 
 @media screen and (max-width: 750px) {
   .places__content {
-    gap: 48.5px;
+    gap: 52px;
   }
 }
